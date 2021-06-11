@@ -1,0 +1,97 @@
+import random
+choices = ["A","B"]
+choice2a = random.choice(choices)
+print(choice2a)
+
+from time import sleep 
+name= input("what is your name? I wanna know!")
+print "Hi " + name + (" Welcome to our house")
+sleep(3)
+print "Are you new here?"
+sleep(2)
+print ("Actually..")
+print ("Choice A: I am")
+print ("Choice B: Im not new..")
+choice1 = input("Yeah..")#choice
+if choice1 == "i am" or choice1 == "I am"or choice1 == "A" or Choice1 == "a": 
+  print "Great Then lets be friends, My name is Nova."
+  print ("So..")
+  print ("Choice A: What are we doing in here?")
+  print ("Choice B: Im going to leave")
+  choice2a=input("Uh no.")#choice
+  if choice2a == "b" or choice2a == "B" or choice2a == "Im not new.." or choice2a == "im not new.."
+    print ("Oh, Sorry I must have not noticed you before..")
+    sleep(2)
+    print ("-You hear the door open and hear some footsteps shortly after-")
+    print ("Hide!")
+  print "You say: What is going on?"
+  print "Their home.."
+  print ("What do you do:")
+  print ("Choice A: Hide")
+  print ("Choice B: Go and find out who is home")
+  choice2b = input("What do you do?")#choice
+  if choice2b == "A" or choice2b == "a" or choice2b == "Hide" or choice2b == "hide":
+    print ("-You go and hide in the kitchen-")
+  elif choice2b == "B" or choice2b == "b" or choice2b == "Go and find out who is home" or choice2b == "go and find out who is home":
+    print ("-You go to investigate what hat was ignoring Nova saying Dont!")
+    print ("You can choose how to approach the being.")
+    print ("Choice A: Go face to face infront of them")
+    print ("Choice B: Sneak around")
+    choice2bb = input("What do you do?")#choice
+    if choice2bb == "a" or choice2bb == "A" or choice2bb == "Go face to face infront of them" or choice2bb == "go face to face infront of them" or choice2bb == "go face to face in front of them" or choice2bb == "Go face to face in front of them":
+      print ("You approach the being and realize you had been kidnapped, you fall unconscious")
+      print ("That is the end of your life, we do not want to get here now do we.. ")#die
+    elif choice2bb == "b" or choice2bb == "B" or choice2bb == "sneak around" or choicebb == "Sneak around":
+      print ("-You sneak around very carefully-")
+      print ("You realized you had been kidnapped!")
+      print ("WHat do you do:")
+      print ("Choice A: Run like a crazy person and charge strait at the being with a knife yelling AAAAAAAAAAAAAAAAAA!")
+      print ("Choice B: Go try the garage door to see if you can escape")
+      choice2bbb = input("What do you do?")#choice
+      choice2bbb = choice2bbb.lower()
+      if choice2bbb == "a" or choice2bbb == "A" or choice2bbb == "Run like a crazy person and charge strait at the being with a knife yelling AAAAAAAAAAAAAAAAAA!": 
+        print ("You get stabbed! This is also not how things should end..")#die
+      elif choice2bbb == "b"or choice2bbb == "B" or choice2bbb == "Go try the garage door to see if you can escape":
+        print ("The door is locked and you don't know how to pick locks.")
+        print ("So you..")
+        print ("Choice A:  Try and pick the lock anyway.")
+        print ("Choice B: Wait until night for the person to fall asleep.")
+        choicebbbb = input ("What do you do?")#choice
+        choicebbbb = choicebbbb.lower()
+        if choicebbbb == "a" or choicebbbb == "A" or choicebbbb == "Try and pick the lock anyway." or choicebbbb == "Try and pick the lock anyway":
+          print ("You wast your time trying to pick the unpickable lock and finally look up, you look around and to your shock nova had been beaten up trying to cover for you and buying you time. That's not what we want either ! :(")#die
+        elif choicebbbb == "b"or choicebbbb == "B" or choicebbbb == "Wait until night for the person to fall asleep.":
+          print ("-You wait patiently until nightfall-")
+          print ("They have fallen asleep")
+          print ("You have two choices.")
+          print ("Choice A: Grab Nova and run downstairs")
+          print ("Choice B: Sneak into the persons room and steal the bedroom keys")
+          choicebbbbb = input ("What do you do?")#choice
+          choicebbbbb = choicebbbbb.lower()
+          if choicebbbbb == "a" or choicebbbbb == "A" or choicebbbbb == "Grab Nova and run downstairs"
+            print ("You run down stairs in panic and realize the door is locked! you can't leave.. The kidnapper finds you and it is not a happy ending. Try again :)")#die
+          if choicebbbbb == "b" or choicebbbbb == "B" or choicebbbbb == "Sneak into the persons room and steal the bedroom keys":
+              print ("you steal a key you found and run downstairs")
+              print ("You don't know which door this key opens so what do you do?")
+              print ("Choice A: Try the garage door.")
+              print ("Choice B: Try the front door/Main door.")
+              choicebbbbbb= input("What do you do?")#choice
+              choicebbbbbb = choicebbbbb.lower ()
+              if choicebbbbbb == "a" or choicebbbbbb == "A" or choicebbbbbb == "Try the garage door."
+                print ("Without thinking you run to the garage door with Nova. The key does not seem to work.. That's okay, you still have tomorrow to try and escape.")
+              if choicebbbbbb == "b" or choicebbbbbb == "B" or choicebbbbbb == "Try the front door/Main door."
+                print ("You grab Nova and run to the front door, You spin the key and the door opens!")
+                print ("You run onto the street and it seems familliar.. you see multiple buildings, what do you do?")
+                print ("Choice A: Run to the police station and tell them everything! ")
+                print ("choice B: Run into the nearest trusted place and tell the security and people there what happened.")
+                print ("choice C: Run into the crowd hoping to get somewhat lost"
+                choicebbbbbbb = input("What do you do?")#choice
+                choicebbbbbbb = choicebbbbbb.lower()
+                if choicebbbbbbb == "a"or choicebbbbbbb == "A"or choicebbbbbbb == "Run to the police station and tell them everything!"
+                  print ("The police understands what happened and tell you to calm down and tell them what they looked like, Just as you start the kidnapper runs in and says they were looking for their kids that went out of control, You tell them that this is the person that tried to kill you. Happy ending! :)")#winning
+                if choicebbbbbbb == "b"or choicebbbbbbb == "B"or choicebbbbbbb == "Run into the nearest trusted place and tell the security and people there what happened.":
+                  print ("You go in and tell them everything, just as you start the person runs in asking where their kids were, You say that, that person was the one that almost killed them, You are safe and free once again, Happy ending :)")#winning
+                if choicebbbbbbb == "c"or choicebbbbbbb == "C"or choicebbbbbbb == "Run into the crowd hoping to get somewhat lost":
+                  print ("You run into the crowd and manage to get lost only for a few minutes until they find you again and you scream for help and you scatter and run into the closest shop you see. You make it home safely Happy Ending :) YAY!")#winning
+
+  print ("You must answer one of the following :( Try again !)#die
